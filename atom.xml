@@ -1,94 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>AngleZhou's</title>
-  <meta name="author" content="Zhou Qian">
-
-  
-  <meta name="description" content="AFNetworking 3.1.0 主要是对NSURLSession做了封装. - 核心类是AFURLSessionManager.
-- 其派生子类AFHTTPSessionManager基于HTTP协议的请求方式进一步封装了GET, HEAD, POST, PATCH, DELETE, &hellip;">
-  
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="http://anglezhou.github.io/">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="AngleZhou's" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
-  
-
-</head>
-
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">AngleZhou's</a></h1>
-  
-    <h2>iOS developer with enthusiasm</h2>
-  
-</hgroup>
-
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="https://www.google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="sitesearch" value="anglezhou.github.io">
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
-
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
+  <title><![CDATA[AngleZhou's]]></title>
+  <link href="http://anglezhou.github.io/atom.xml" rel="self"/>
+  <link href="http://anglezhou.github.io/"/>
+  <updated>2016-09-17T11:38:38+08:00</updated>
+  <id>http://anglezhou.github.io/</id>
+  <author>
+    <name><![CDATA[Zhou Qian]]></name>
     
-      <h1 class="entry-title"><a href="/blog/2016/09/16/afnetworkingyuan-ma-yue-du-%5B%3F%5D/">AFNetworking源码阅读(一)</a></h1>
-    
-    
-      <p class="meta">
-        
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
-
-
-
-<time class='entry-date' datetime='2016-09-16T21:03:58+08:00'><span class='date'><span class='date-month'>Sep</span> <span class='date-day'>16</span><span class='date-suffix'>th</span>, <span class='date-year'>2016</span></span> <span class='time'>9:03 pm</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>AFNetworking 3.1.0 主要是对NSURLSession做了封装.</p>
+  
+  <entry>
+    <title type="html"><![CDATA[AFNetworking源码阅读(一)]]></title>
+    <link href="http://anglezhou.github.io/blog/2016/09/16/afnetworkingyuan-ma-yue-du-%5B%3F%5D/"/>
+    <updated>2016-09-16T21:03:58+08:00</updated>
+    <id>http://anglezhou.github.io/blog/2016/09/16/afnetworkingyuan-ma-yue-du-[?]</id>
+    <content type="html"><![CDATA[<p>AFNetworking 3.1.0 主要是对NSURLSession做了封装.</p>
 
 <pre><code>- 核心类是AFURLSessionManager.
 - 其派生子类AFHTTPSessionManager基于HTTP协议的请求方式进一步封装了GET, HEAD, POST, PATCH, DELETE, PUT等方法.
@@ -199,68 +129,7 @@ dispatch_semaphore_wait(semaphore, DISPATCH_TIME_FOREVER);//如果semaphore计�
 </code></pre></li>
 </ol>
 
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2016/09/16/afnetworkingyuan-ma-yue-du-%5B%3F%5D/">AFNetworking源码阅读(一)</a>
-      </li>
-    
-  </ul>
-</section>
-
-
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2016 - Zhou Qian -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
-</footer>
-  
-
-
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
-
-
-</body>
-</html>
+</feed>
